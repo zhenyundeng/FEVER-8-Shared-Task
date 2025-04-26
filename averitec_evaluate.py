@@ -580,7 +580,7 @@ def main():
     # Add arguments
     # convert golden_dev.json to solution.csv  (https://github.com/Raldir/FEVER-8-Shared-Task/blob/main/prepare_leaderboard_submission.py)
     # convert prediction_dev.json to submission.csv
-    parser.add_argument('--label_file', type=str, default='evaluation/solution.csv',
+    parser.add_argument('--label_file', type=str, default='leaderboard_submission/solution_dev.csv',
                         help='Golden data filename.')
     parser.add_argument('--prediction_file', type=str, default='leaderboard_submission/submission.csv',
                         help='Predicted data filename')
